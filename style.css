@@ -57,11 +57,11 @@ text-align: center;
 }
 
 .project_name_music-album {
-  background-image: url(https://code.s3.yandex.net/web-code/album.png);
+  background-image: url(/images/album.png);
 }
 
 .project_name_design-principles {
-  background-image: url(https://code.s3.yandex.net/web-code/design.png);
+  background-image: url(/images/design.png);
 }
 
 .flex-row {
@@ -149,12 +149,12 @@ text-align: center;
 .page__menu {
   margin: 40px auto;
 }
-.project_width_l {
-  width: 636px;
+ .project_width_l {
+  width: 48%;
 }
 .project_width_m {
   width: 306px;
-}
+} 
 .project_height_xl {
   height: 557px;
 }
@@ -217,8 +217,35 @@ text-align: center;
     padding: 20px; /* отступ, чтобы текст не касался краёв */
 }
 
-/* @media (min-width: 950px) {
+ @media (max-width: 1000px) {
   .project_width_l {
-    width: 400px;
+    width: 85%;
   }
-} */
+  .project_height_l {
+    height: 500px;
+  }
+} 
+
+@media (max-width: 700px) {
+  .project_height_l {
+    height: 450px;
+  }
+  
+} 
+ 
+@media (max-width: 580px) {
+  .project_height_l {
+    height: 400px;
+  }
+} 
+
+@media (max-width: 470px) {
+  .project_height_l {
+    height: 350px;
+  }
+} 
+@media (max-width: 400px) {
+  .project_height_l {
+    height: 300px;
+  }
+}  

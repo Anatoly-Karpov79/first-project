@@ -121,11 +121,11 @@ text-align: center;
 }
 
 .project_name_across-russia {
-  background-image: url(../images/travel.PNG);
+  background-image: url(../my_portfolio/images/travel.PNG);
   order: 2;
  }
 .project_name_mesto {
-  background-image: url(../images/mesto.PNG);
+  background-image: url(../my_portfolio/images/mesto.PNG);
   order: 1;
 }
 

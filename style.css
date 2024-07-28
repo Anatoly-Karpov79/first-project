@@ -1,10 +1,11 @@
 body {
-  display: flex;
-  flex-direction: column;
+  
 }
 
 .page {
   font-family: 'Cormorant Garamond';
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
@@ -65,8 +66,9 @@ text-align: center;
 
 .flex-row {
     display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
 }
 .list {
   list-style: none;
@@ -119,18 +121,18 @@ text-align: center;
 }
 
 .project_name_across-russia {
-  background-image: url(../my_portfolio/images/travel.PNG);
+  background-image: url(../images/travel.PNG);
   order: 2;
  }
 .project_name_mesto {
-  background-image: url(../my_portfolio/images/mesto.PNG);
+  background-image: url(../images/mesto.PNG);
   order: 1;
 }
 
 .content {
   max-width: 1330px;
-  min-width: 1280px;
-  
+  flex-direction: column;
+ 
 }
 .menu__link {
   font-size: 18px;
@@ -214,3 +216,9 @@ text-align: center;
   opacity: 1;
     padding: 20px; /* отступ, чтобы текст не касался краёв */
 }
+
+/* @media (min-width: 950px) {
+  .project_width_l {
+    width: 400px;
+  }
+} */
